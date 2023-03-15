@@ -1,0 +1,6 @@
+2023/03/11-15:29:20.683 318d Creating DB /home/mzhang/.config/chromium/Default/IndexedDB/http_localhost_3001.indexeddb.leveldb since it was missing.
+2023/03/11-15:29:20.685 318d Reusing MANIFEST /home/mzhang/.config/chromium/Default/IndexedDB/http_localhost_3001.indexeddb.leveldb/MANIFEST-000001
+2023/03/11-15:29:20.704 386b Level-0 table #5: started
+2023/03/11-15:29:20.705 386b Level-0 table #5: 1220 bytes OK
+2023/03/11-15:29:20.706 386b Delete type=0 #3
+2023/03/11-15:29:20.706 3190 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
