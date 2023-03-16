@@ -1,3 +1,6 @@
-2023/03/12-16:59:52.920 3 Reusing MANIFEST /home/mzhang/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2023/03/12-16:59:52.921 3 Recovering log #29
-2023/03/12-16:59:52.921 3 Reusing old log /home/mzhang/.config/chromium/Default/Local Storage/leveldb/000029.log 
+2023/03/15-18:24:40.240 3 Reusing MANIFEST /home/mzhang/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/15-18:24:40.240 3 Recovering log #29
+2023/03/15-18:24:40.240 3 Reusing old log /home/mzhang/.config/chromium/Default/Local Storage/leveldb/000029.log 
+2023/03/15-18:25:49.794 3 Level-0 table #33: started
+2023/03/15-18:25:49.803 3 Level-0 table #33: 27568 bytes OK
+2023/03/15-18:25:49.805 3 Delete type=0 #29

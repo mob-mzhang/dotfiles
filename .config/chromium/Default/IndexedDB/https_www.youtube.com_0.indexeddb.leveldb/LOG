@@ -1,3 +1,7 @@
-2023/03/12-16:49:28.365 34d Reusing MANIFEST /home/mzhang/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/12-16:49:28.365 34d Recovering log #3
-2023/03/12-16:49:28.369 34d Reusing old log /home/mzhang/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/03/15-17:42:47.712 1e5b Reusing MANIFEST /home/mzhang/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/15-17:42:47.712 1e5b Recovering log #3
+2023/03/15-17:42:47.720 1e5b Reusing old log /home/mzhang/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/03/15-17:43:22.839 1e5c Level-0 table #5: started
+2023/03/15-17:43:22.844 1e5c Level-0 table #5: 470202 bytes OK
+2023/03/15-17:43:22.845 1e5c Delete type=0 #3
+2023/03/15-17:43:22.845 1e5c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

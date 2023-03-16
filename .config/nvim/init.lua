@@ -40,6 +40,7 @@ P.S. You can delete this when you're done too. It's your config now :)
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+vim.g.neoformat_try_node_exe = 1
 
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
@@ -71,6 +72,7 @@ require('lazy').setup({
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
+  'sbdchd/neoformat',
 
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
@@ -267,6 +269,8 @@ vim.api.nvim_create_autocmd('FileType', {
   pattern = "javascript",
   group = jstots_group,
 })
+
+vim.cmd([[autocmd BufWritePre,InsertLeave *.js,*.ts,*.tsx,*.jsx Neoformat prettier]])
 
 
 -- [[ Configure Telescope ]]
