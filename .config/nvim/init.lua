@@ -41,6 +41,9 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.g.neoformat_try_node_exe = 1
+vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 1
+vim.g.copilot_assume_mapped = true
 
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
@@ -73,6 +76,22 @@ require('lazy').setup({
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
   'sbdchd/neoformat',
+
+  -- Github Copilot
+  'github/copilot.vim',
+
+
+  -- Nvim-tree
+  {
+    "nvim-tree/nvim-tree.lua",
+    version = "*",
+    dependencies = {
+      "nvim-tree/nvim-web-devicons",
+    },
+    config = function()
+      require("nvim-tree").setup {}
+    end,
+  },
 
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
@@ -207,6 +226,11 @@ vim.o.hlsearch = true
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+
+-- scrolloff
+
+vim.opt.scrolloff = 8
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
@@ -271,6 +295,14 @@ vim.api.nvim_create_autocmd('FileType', {
 })
 
 vim.cmd([[autocmd BufWritePre,InsertLeave *.js,*.ts,*.tsx,*.jsx Neoformat prettier]])
+
+-- Nvim-tree setup
+require("nvim-tree").setup({
+  sort_by = "case_sensitive",
+  renderer = {
+    group_empty = true,
+  },
+})
 
 
 -- [[ Configure Telescope ]]

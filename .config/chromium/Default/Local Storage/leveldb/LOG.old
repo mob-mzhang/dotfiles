@@ -1,6 +1,0 @@
-2023/03/17-16:44:53.886 3 Reusing MANIFEST /home/mzhang/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2023/03/17-16:44:53.886 3 Recovering log #47
-2023/03/17-16:44:53.886 3 Reusing old log /home/mzhang/.config/chromium/Default/Local Storage/leveldb/000047.log 
-2023/03/17-16:46:16.864 4 Level-0 table #52: started
-2023/03/17-16:46:16.865 4 Level-0 table #52: 31748 bytes OK
-2023/03/17-16:46:16.866 4 Delete type=0 #47

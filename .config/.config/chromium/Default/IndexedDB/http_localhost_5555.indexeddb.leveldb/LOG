@@ -1,0 +1,12 @@
+2023/03/27-15:51:33.707 7a3 Reusing MANIFEST /home/mzhang/.config/chromium/Default/IndexedDB/http_localhost_5555.indexeddb.leveldb/MANIFEST-000001
+2023/03/27-15:51:33.708 7a3 Recovering log #4
+2023/03/27-15:51:33.712 7a3 Reusing old log /home/mzhang/.config/chromium/Default/IndexedDB/http_localhost_5555.indexeddb.leveldb/000004.log 
+2023/03/27-17:24:59.402 7a4 Level-0 table #8: started
+2023/03/27-17:24:59.412 7a4 Level-0 table #8: 968740 bytes OK
+2023/03/27-17:24:59.413 7a4 Delete type=0 #4
+2023/03/27-17:25:35.971 7a3 Compacting 1@1 + 1@2 files
+2023/03/27-17:25:35.978 7a3 Generated table #9@1: 1398 keys, 118920 bytes
+2023/03/27-17:25:35.978 7a3 Compacted 1@1 + 1@2 files => 118920 bytes
+2023/03/27-17:25:35.979 7a3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/27-17:25:35.979 7a3 Delete type=2 #5
+2023/03/27-17:25:35.979 7a3 Delete type=2 #8
