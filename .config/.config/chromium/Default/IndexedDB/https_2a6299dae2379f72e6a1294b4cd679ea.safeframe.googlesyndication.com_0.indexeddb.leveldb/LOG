@@ -1,6 +1,0 @@
-2023/03/23-21:03:40.900 44c Creating DB /home/mzhang/.config/chromium/Default/IndexedDB/https_2a6299dae2379f72e6a1294b4cd679ea.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
-2023/03/23-21:03:40.902 44c Reusing MANIFEST /home/mzhang/.config/chromium/Default/IndexedDB/https_2a6299dae2379f72e6a1294b4cd679ea.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/23-21:03:43.207 44c Level-0 table #5: started
-2023/03/23-21:03:43.207 44c Level-0 table #5: 460 bytes OK
-2023/03/23-21:03:43.208 44c Delete type=0 #3
-2023/03/23-21:03:43.208 44c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

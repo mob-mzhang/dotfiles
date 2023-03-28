@@ -1,7 +1,0 @@
-2023/03/18-16:57:00.127 447 Reusing MANIFEST /home/mzhang/.config/chromium/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/18-16:57:00.127 447 Recovering log #3
-2023/03/18-16:57:00.127 447 Reusing old log /home/mzhang/.config/chromium/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/000003.log 
-2023/03/18-16:57:12.612 ae90 Level-0 table #5: started
-2023/03/18-16:57:12.613 ae90 Level-0 table #5: 1196 bytes OK
-2023/03/18-16:57:12.614 ae90 Delete type=0 #3
-2023/03/18-16:57:12.614 ae90 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
