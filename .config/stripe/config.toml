@@ -1,0 +1,13 @@
+color = ''
+project-name = 'default'
+[default]
+account_id = 'acct_1MF6v6L6J3dVzhht'
+device_name = 'archlinux'
+display_name = 'moblabs.io'
+live_mode_api_key = 'rk_live_***********************************************************************************************rq1w'
+live_mode_key_expires_at = '2023-07-07'
+live_mode_pub_key = 'pk_live_51MF6v6L6J3dVzhhtRk0v0fkj30Es6XiiHqpInwcNJNwUHvykYYTBE5EW41qCHRqYsLTR1WeKMWcv55iVfV11m1zQ00Pp8zgOTi'
+test_mode_api_key = 'rk_test_51MF6v6L6J3dVzhhtX3XuTJhkgGtzkunzoDWfk7R9Qs3GvREgOpoW7GcyktDl9JC87cgvaSLbQdUu35GmAzKhqQbw00phNawrEU'
+test_mode_key_expires_at = '2023-07-07'
+test_mode_pub_key = 'pk_test_51MF6v6L6J3dVzhhtG8l6jNSm253vMMjHGrofWpI9Fl4k14UDURCooObXfurubGnQlq4vqmhicWXrXyPEKlH2aCuG00rnEwiurM'
+
